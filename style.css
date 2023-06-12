@@ -1,0 +1,26 @@
+.player-one-board,
+.player-two-board {
+  height: 500px;
+  width: 500px;
+  border: solid black 1px;
+
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.boards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player-one-board div,
+.player-two-board div {
+  border: solid black 0.5px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
